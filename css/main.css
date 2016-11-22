@@ -3,6 +3,10 @@ body {
 
 }
 
+.clear-fix {
+	clear: both;
+}
+
 .fluid-container-fix {
 
 /* Margin settings to remove white space from left and right of fluid container*/
@@ -16,6 +20,7 @@ body {
 	/*width: 1920px;*/
 	height: 3.5em;
 	background-color: #2768D0;
+	z-index: -1000;
 
 
 }
@@ -27,24 +32,39 @@ body {
 }
 
 
+#main-content {
+	float: left;
+}
+
+
 /*  Side bar */
 
 #side-bar {
 
 	/* Try to find another way to achieve 100% height for browser window*/
-	height: 92vh;
+	height: 93vh;
 
 	background-color: #30373E;
+	z-index: -1000;
+	position: relative;
 
 
 
 
 }
 
+/* Status Panels*/
+
+.tiles {
+	height: 50px;
+	width: 100px;
+	background-color: #3C454D;
+}
+
 /* Window Panels*/
 
 .window-panel {
-	height: 500px;
+	height: 400px;
 	background-color: white;
 	margin-left: 50px;
 }

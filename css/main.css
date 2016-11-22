@@ -1,0 +1,42 @@
+body {
+
+}
+
+.fluid-container-fix {
+
+/* Margin settings to remove white space from left and right of fluid container*/
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+/* Header */
+
+#main-header {
+	/*width: 1920px;*/
+	height: 3.5em;
+	background-color: #2768D0;
+
+
+}
+
+#header-logo {
+	color: white;
+	margin: 0;
+	padding: 0.625em;
+}
+
+
+/*  Side bar */
+
+#side-bar {
+
+	/* Try to find another way to achieve 100% height for browser window*/
+	height: 92vh;
+
+	background-color: #30373E;
+
+
+}
+
+
+

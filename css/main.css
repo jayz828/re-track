@@ -94,11 +94,29 @@ body {
 .window-panel {
 	height: 400px;
 	background-color: white;
+	background: linear-gradient(0deg, #FFFFFF 25em, #272C31 15em);
+
 	margin-left: 50px;
 	margin-top: 3em;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
+	color: white;
+
+
 }
+
+.windows-buttons h4{
+	float: right;
+}
+
+.window-buttons > img {
+	height: 2.5em;
+	margin-top: 5px;
+	padding: 2px;
+	margin-left: -10px;
+	float: right;
+
+	}
 
 #main-content {
 	/*background-color: black;*/

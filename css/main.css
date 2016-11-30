@@ -105,9 +105,26 @@ body {
 
 }
 
-.windows-buttons h4{
-	float: right;
+.window-title-bar {
+	
+	/*background: red;*/
+/*	float: left;
+	display: inline-block;
+	width: 100%;*/
 }
+
+
+
+
+ /* Below is what fixed the window title bar elements */
+.window-name {
+	float: left;
+	
+}
+
+
+
+
 
 .window-buttons > img {
 	height: 2.5em;

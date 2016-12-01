@@ -135,6 +135,38 @@ body {
 
 	}
 
+.window-content {
+	padding-top: 20px;
+}
+
+.window-table {
+	
+	color: black;
+}
+
+	.window-table th {
+		
+		padding-left: 60px;
+		border-bottom:  2px solid black;
+
+	}
+
+	.window-table th:nth-child(1) {
+		padding-left: 10px;
+	}
+
+
+.table-spacer {
+	height: 15px;
+}
+
+
+.tally-input {
+	width: 50px;
+	margin-left: 50px;
+	text-align: right;
+}
+
 #main-content {
 	/*background-color: black;*/
 }
@@ -143,3 +175,8 @@ body {
 	height: 3em;
 }
 
+
+
+.clear-fix {
+	clear: both;
+}

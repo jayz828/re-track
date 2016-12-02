@@ -167,6 +167,35 @@ body {
 	text-align: right;
 }
 
+#add-button {
+	color: black;
+	
+	width: 100px;
+
+	
+}
+
+#bottom-section {
+	
+	
+	
+	
+}
+
+.input-buttons {
+	display: inline-block;
+	background: red;
+	float: left;
+}
+
+#production-panel {
+	height: 50px;
+	width: 50%;
+	background: blue;
+	float: right;
+	
+}
+
 #main-content {
 	/*background-color: black;*/
 }

@@ -105,6 +105,7 @@ body {
 
 }
 
+
 .window-title-bar {
 	
 	/*background: red;*/
@@ -127,7 +128,7 @@ body {
 
 
 .window-buttons > img {
-	height: 2.5em;
+	height: 2em;
 	margin-top: 5px;
 	padding: 2px;
 	margin-left: -10px;
@@ -199,6 +200,7 @@ body {
 	text-align: center;
 	vertical-align: middle;
 	color: black;
+	border-radius: 10px;
 
 	
 }

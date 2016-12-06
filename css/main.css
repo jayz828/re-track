@@ -4,6 +4,10 @@ body {
 
 }
 
+.black-text {
+	color: black;
+}
+
 .clear-fix {
 	clear: both;
 }
@@ -140,6 +144,10 @@ body {
 	padding-top: 20px;
 }
 
+.window-content > select {
+	color: black;
+}
+
 .window-table {
 	
 	color: black;
@@ -149,6 +157,7 @@ body {
 		
 		padding-left: 60px;
 		border-bottom:  2px solid black;
+		/*width: 100px;*/
 
 	}
 
@@ -213,6 +222,12 @@ body {
 		/*color: black;*/
 		margin: 0;
 	}
+
+
+#non-scheduled-panel input{
+	width: 30px;
+
+}
 
 #main-content {
 	/*background-color: black;*/

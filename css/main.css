@@ -193,14 +193,24 @@ body {
 	/*line-height: 100px;*/
 	height: 50px;
 	width: 50%;
-	background: blue;
+	background: yellow; /* Find a different shade of yellow*/
 	float: right;
 	margin-top: -20px;
 	text-align: center;
 	vertical-align: middle;
+	color: black;
 
 	
 }
+
+	#production-panel p {
+		margin: 0;
+	}
+	#production-panel h3 {
+		/*vertical-align: middle;*/
+		/*color: black;*/
+		margin: 0;
+	}
 
 #main-content {
 	/*background-color: black;*/

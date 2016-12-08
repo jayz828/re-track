@@ -203,7 +203,7 @@ body {
 	/*line-height: 100px;*/
 	height: 50px;
 	width: 50%;
-	background: yellow; /* Find a different shade of yellow*/
+	background: #FFFB9F; 
 	float: right;
 	margin-top: -20px;
 	text-align: center;
@@ -228,6 +228,21 @@ body {
 	width: 30px;
 
 }
+
+#graph {
+
+	margin-left: 30px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 250px;
+	width: 170px;
+}
+
+	#graph meter {
+		display: block;
+		margin-top: 20px;
+		width: 150px;
+	}
 
 #main-content {
 	/*background-color: black;*/

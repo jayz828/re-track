@@ -8,6 +8,10 @@ body {
 	color: black;
 }
 
+.white-text {
+	color: white;
+}
+
 .clear-fix {
 	clear: both;
 }
@@ -33,7 +37,8 @@ body {
 #header-logo {
 	color: white;
 	margin: 0;
-	padding: 0.625em;
+	padding-top: 0.625em;
+	padding-left: 0.625em;
 }
 
 
@@ -48,15 +53,46 @@ body {
 
 	/* Try to find another way to achieve 100% height for browser window*/
 	height: 93vh;
-
+	margin-top: 0;
+	padding-top: 0;
 	background-color: #30373E;
-	z-index: -1000;
+	/*z-index: -1000;*/  
+	/* Removing zindex fixed select dropd down issues*/
 	position: relative;
 
 
 
 
 
+}
+
+	#side-bar h5{
+		padding-top: 2em;
+		margin: 0;
+		margin-left: 1em;
+	}
+
+	#side-bar p {
+		color: white;
+		float: left;
+		padding-top: 2em;
+		margin: 0;
+		margin-left: 1em;
+
+	}
+
+	#side-bar select {
+		margin-left: 1em;
+		margin-top: 2em;
+		float: left;
+	}
+
+
+
+#start-stop-time {
+
+
+	
 }
 
 /* Status Panels*/
@@ -222,6 +258,19 @@ body {
 		/*color: black;*/
 		margin: 0;
 
+	}
+
+#hours-panel {
+	background: #01BF86;
+	border-radius: 5px;
+	float: right;
+	height: 75px;
+	width: 60%;
+}
+
+	#hours-panel p{
+
+		margin:0;
 	}
 
 

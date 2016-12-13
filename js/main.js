@@ -2,14 +2,15 @@
 
 
 
-addOption();
+addOption('start-time');
+addOption('stop-time');
 
 
-function addOption(){
+function addOption(element){
 
 
 
-	var time = document.getElementById('start-time');
+	var time = document.getElementById(element);
 
 
 	// Use military time as start and end times 
@@ -24,13 +25,6 @@ function addOption(){
     	// allTimes.push(i);
 
     	for (min = 0; min < 60; min+=15) { 
-
-    		// if (min == 60 ) {
-    		// 	var minutes = 0;
-    		// 	minutes == "00";
-    		// } else {
-    		// 	minutes == min;
-    		// }
 
     		var minutes = min;
 

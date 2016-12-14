@@ -34,6 +34,12 @@ body {
 
 }
 
+#logo {
+	height: 75px;
+	margin-top: -15px;
+	margin-left: 3em;
+}
+
 #header-logo {
 	color: white;
 	margin: 0;
@@ -75,7 +81,7 @@ body {
 	#side-bar p {
 		color: white;
 		float: left;
-		padding-top: 2em;
+		padding-top: 1em;
 		margin: 0;
 		margin-left: 1em;
 
@@ -83,10 +89,39 @@ body {
 
 	#side-bar select {
 		margin-left: 1em;
-		margin-top: 2em;
+		margin-top: 1em;
 		float: left;
 	}
 
+	#side-bar img {
+		height: 50px;
+		float: left;
+		margin: 10px 5px 10px 10px; 
+	}
+
+
+/*#section-hours {
+	background: #00ACAC;
+}*/
+
+.menu-tile {
+	background: #00ACAC;
+	height: 50px;
+	width: 100%;
+}
+	.menu-tile p {
+		text-align: center;	
+		float: none !important;
+	}
+
+.associate-position {
+	color: #616D7D !important;
+	margin-right: 10px !important;
+}
+
+#hours-info {
+	margin-top: 1em;
+}
 
 
 #start-stop-time {
